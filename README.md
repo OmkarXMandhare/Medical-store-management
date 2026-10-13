@@ -63,6 +63,26 @@ These screenshots were supplied from the current application. The extra owner-da
 
 > The exact database name, tables, and configuration must match the SQL schema and code in your current project. This README does not create database tables or user accounts.
 
+## Project Structure
+mahalaxmi-medical/
+├── README.md
+├── screenshots/
+│   ├── login-page.png
+│   ├── owner-dashboard.png
+│   ├── employee-task-monitoring.png
+│   ├── assign-task.png
+│   ├── create-employee-account.png
+│   ├── employee-dashboard.png
+│   ├── task-management.png
+│   ├── daily-checklist.png
+│   └── store-activities.png
+├── index.php
+├── login.php
+├── owner/
+├── employee/
+├── assets/
+└── database/
+
 ## Security Before Deployment
 
 - Store passwords using PHP `password_hash()` and verify them with `password_verify()`.
