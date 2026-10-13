@@ -66,24 +66,80 @@ These screenshots were supplied from the current application. The extra owner-da
 ## Project Structure
 ```text
 
-mahalaxmi-medical/
+mahalaxmi-medical-store-management/
+│
 ├── README.md
+├── index.php
+├── login.php
+├── logout.php
+│
+├── config/
+│   └── database.php
+│
+├── includes/
+│   ├── auth.php
+│   ├── header.php
+│   ├── footer.php
+│   └── functions.php
+│
+├── owner/
+│   ├── dashboard.php
+│   ├── employees.php
+│   ├── add-employee.php
+│   ├── edit-employee.php
+│   ├── delete-employee.php
+│   ├── tasks.php
+│   ├── assign-task.php
+│   ├── edit-task.php
+│   ├── delete-task.php
+│   ├── activities.php
+│   ├── reports.php
+│   ├── inventory.php
+│   ├── add-medicine.php
+│   ├── edit-medicine.php
+│   ├── delete-medicine.php
+│   ├── inventory-alerts.php
+│   └── settings.php
+│
+├── employee/
+│   ├── dashboard.php
+│   ├── tasks.php
+│   ├── activity.php
+│   ├── checklist.php
+│   └── report-issue.php
+│
+├── api/
+│   ├── activities.php
+│   └── tasks.php
+│
+├── assets/
+│   ├── css/
+│   │   ├── style.css
+│   │   ├── owner.css
+│   │   └── employee.css
+│   │
+│   ├── js/
+│   │   └── app.js
+│   │
+│   └── images/
+│       └── logo.png
+│
+├── uploads/
+│   └── .gitkeep
+│
 ├── screenshots/
 │   ├── login-page.png
 │   ├── owner-dashboard.png
+│   ├── employee-dashboard.png
 │   ├── employee-task-monitoring.png
 │   ├── assign-task.png
 │   ├── create-employee-account.png
-│   ├── employee-dashboard.png
 │   ├── task-management.png
 │   ├── daily-checklist.png
 │   └── store-activities.png
-├── index.php
-├── login.php
-├── owner/
-├── employee/
-├── assets/
+│
 └── database/
+    └── schema.sql
 
 ## Security Before Deployment
 
