@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    background: #FFF8F0;
+    color: #292524;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.employee-header {
+    padding: 22px;
+    background: #B4232F;
+    color: #FFFFFF;
+}
+
+.employee-header h1 {
+    margin: 0 0 6px;
+    font-size: 22px;
+}
+
+.employee-header p {
+    margin: 0;
+}
+
+.employee-main {
+    max-width: 800px;
+    margin: auto;
+    padding: 24px 18px;
+}
+
+.employee-main > p {
+    color: #78716C;
+}
+
+.employee-card {
+    background: #FFFFFF;
+    padding: 20px;
+    margin-top: 18px;
+    border: 1px solid #E7D9CC;
+    border-radius: 14px;
+}
+
+.employee-card h3 {
+    margin-top: 0;
+    color: #B4232F;
+}
+
+.logout-link {
+    display: inline-block;
+    margin-top: 24px;
+    color: #B4232F;
+}
+
+@media (max-width: 600px) {
+    .employee-header h1 {
+        font-size: 19px;
+    }
+
+    .employee-card {
+        padding: 16px;
+    }
+}
+
+.employee-card label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.employee-card select,
+.employee-card textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #E7D9CC;
+    border-radius: 8px;
+    background: #FFF8F0;
+    color: #292524;
+    font: inherit;
+}
+
+.employee-card textarea {
+    resize: vertical;
+}
+
+.activity-submit {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    border: none;
+    border-radius: 9px;
+    background: #B4232F;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.activity-submit:hover {
+    background: #8F1D27;
+}
+
+.activity-item {
+    padding: 15px 0;
+    border-bottom: 1px solid #E7D9CC;
+    overflow-wrap: anywhere;
+}
+
+.activity-item h4 {
+    margin: 0 0 8px;
+    color: #B4232F;
+}
+
+.activity-item p {
+    line-height: 1.5;
+}
+
+.activity-item small {
+    color: #78716C;
+}
+
+#activityMessage {
+    margin-top: 14px;
+    overflow-wrap: anywhere;
+}
